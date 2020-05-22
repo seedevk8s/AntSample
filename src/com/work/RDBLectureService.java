@@ -13,9 +13,9 @@ public class RDBLectureService implements LectureService{
 	@Override
 	public List<LectureDAO> selectLecture() {
 		LectureDAO lectureDAO = new LectureDAO();
-		lectureDAO.setComment("강의 설명입니다.");
-		lectureDAO.setName("CI 환경 구축");
-		lectureDAO.setInstructor("소공");
+		lectureDAO.setComment("Lecture description.");
+		lectureDAO.setName("CI environment");
+		lectureDAO.setInstructor("chj");
 		
 		List<LectureDAO> lectureList = new ArrayList<LectureDAO>();
 		lectureList.add(lectureDAO);

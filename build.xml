@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="euc-kr"?>
+<?xml version="1.0" encoding="utf-8"?>
 <project name="LectureService" default="compile" basedir=".">
 	<property name="build.dir" location="bin"></property>
 	<property name="build.prod.dir" location="${build.dir}/prod"></property>
